@@ -16,7 +16,7 @@ class _TelaJogoAdivinhacaoDState extends State<TelaJogoAdivinhacaoD> {
   late TextEditingController _controller;
   String _feedback = '';
   int _tentativas = 0;
-  final int _maxTentativas = 3;
+  final int _maxTentativas = 10;
 
   @override
   void initState() {
